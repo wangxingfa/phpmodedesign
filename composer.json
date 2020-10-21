@@ -1,0 +1,37 @@
+{
+"name":"wangxingfa/phpmodedesign",
+"description":"PHP mode design examples",
+"type":"library",
+"license":"MIT",
+
+"keywords":[
+"utils",
+"tools",
+"string"
+],
+"authors":[
+{
+"name":"louis",
+"email":"935466680@qq.com"
+}
+],
+
+ "autoload": {
+        "psr-4": {
+            "phpdesignmode\\datacenter\\":"phpdesignmode\\datacenter",
+			"phpdesignmode\\observer\\":"phpdesignmode\\observer",
+			"phpdesignmode\\delegator\\":"phpdesignmode\\delegator",
+			"phpdesignmode\\observeranother\\":"phpdesignmode\\observeranother",
+			"phpdesignmode\\facade\\":"phpdesignmode\\facade",
+			"phpdesignmode\\facadeanother\\":"phpdesignmode\\facadeanother",
+			"phpdesignmode\\strategy\\":"phpdesignmode\\strategy",
+			"phpdesignmode\\register\\":"phpdesignmode\\register",
+			"phpdesignmode\\adapter\\":"phpdesignmode\\adapter"
+        }
+    },
+    "require": {
+        "php": ">=5.6.0"
+    }
+	
+}
+
